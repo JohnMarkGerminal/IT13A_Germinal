@@ -8,7 +8,7 @@ public class Encryption {
     
      public static void main (String [] args) throws IOException{
         String encryptedMessage;
-        try (FileWriter myWriter = new FileWriter("C:\\Users\\user\\Documents\\New Text Document.txt")){
+        try (FileWriter myWriter = new FileWriter("C:\\Users\\user\\Documents\\germinal.txt")){
             int key = 6;
             String message = "I love you! \n Gwapa ko! \n Buotan si Ma'am.";
             encryptedMessage = encryptMessage(message, key);
